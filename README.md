@@ -46,6 +46,7 @@ it asks: **Save As… / Overwrite / Cancel**. Cancel writes nothing. More:
 
 Full list, with what it does **not** do: [What it does](docs/what-it-does.md).
 Pictures for nine kinds of work: [Use cases](docs/use-cases.md).
+Try the same notes yourself: [samples](samples/).
 
 | Light theme | Split view |
 |---|---|

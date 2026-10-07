@@ -110,4 +110,4 @@ Run it only on the copy you downloaded from this project's release page.
 
 ## Problems?
 
-Tell us what happened: <ISSUES-URL>
+Tell us what happened: [open an issue on GitHub](https://github.com/pilcrowmd/pilcrow-mac/issues)

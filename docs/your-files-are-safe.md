@@ -1,7 +1,8 @@
 # Your files are safe
 
 PilcrowMD opens your files and writes them back. It does not keep its own copy, does not
-upload anything, and does not change what you wrote unless you edit it. This page lists
+upload your files (the one exception: if you turn Mermaid on, the text of each diagram is sent
+to mermaid.ink to be drawn), and does not change what you wrote unless you edit it. This page lists
 every rule the app follows when it saves, in plain words, so you can check them.
 
 ---

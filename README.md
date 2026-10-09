@@ -1,65 +1,91 @@
 # PilcrowMD for Mac
 
-A native Markdown reader and editor for the Mac. Open a `.md` file and read it the way
-it was meant to look – headings, tables, code, maths, footnotes. Edit it, see the result side
-by side, export it to PDF.
+A native Markdown reader and editor for the Mac. Open a `.md` file and read it the way it
+was meant to look. Edit it, see the result side by side, export it to PDF.
+Built for the age of AI agents: it watches your folders and shows every new or changed file
+within a second.
 
-**Built for the age of AI agents.** Add a folder, and PilcrowMD keeps it live: when an agent,
-a script or another app creates or changes a file, you see it within a second, with a mark
-that says *new* or *updated*. And it never overwrites anyone's work without asking you.
-
-This is a **beta**, free to use while the beta lasts. Mac questions and news: [pilcrowmd.com](https://pilcrowmd.com)
-
-**Also on Android** – PilcrowMD for your phone, already in use: [Google Play](https://play.google.com/store/apps/details?id=com.pilcrowmd&referrer=utm_source%3Dgithub%26utm_campaign%3Dmac_readme) · [F-Droid](https://f-droid.org/packages/com.pilcrowmd/)
+**[Download PilcrowMD 0.1 beta (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.1-beta)** ·
+macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ![PilcrowMD showing a project README, with the folder sidebar on the left and the outline on the right](images/use-coders.png)
 
 ---
 
-## Watch an agent work in your folder
+## What it shows, for whom
+
+The same app, nine kinds of documents. Every picture is the real app showing one of our
+example notes. Click a name to see three pictures and the full list for that kind of note.
+
+| Who | What they write | What PilcrowMD draws for them | |
+|:--|:--|:--|:--|
+| **[Developers](docs/use-cases/developers.md)** | READMEs, API notes | Code in 28 languages with colours and a Copy button, tables, callouts, task lists, footnotes, collapsible sections | <img src="images/use-cases/developers-2.png" width="260" alt="Code in Python, TypeScript and Kotlin"> |
+| **[Admins and on-call](docs/use-cases/admins.md)** | Runbooks, incident notes | Warning and Caution callouts, shell and SQL with exact spacing, alert tables, checklists | <img src="images/use-cases/admins-1.png" width="260" alt="A runbook with a Caution callout and an alert table"> |
+| **[Product](docs/use-cases/product.md)** | Specs, plans | Goal and priority tables, task lists, callouts, links between notes | <img src="images/use-cases/product-2.png" width="260" alt="Requirements with priorities and an Important callout"> |
+| **[Business](docs/use-cases/business.md)** | Reports, reviews | Tables with numbers aligned right, bold totals, numbered lists, the Light theme | <img src="images/use-cases/business-3.png" width="260" alt="A quarterly review in the Light theme"> |
+| **[Legal](docs/use-cases/legal.md)** | Agreements, clause reviews | Numbered clauses, a contents list with links, definitions tables, review comments in boxes, footnotes | <img src="images/use-cases/legal-2.png" width="260" alt="A clause with its table and a review comment"> |
+| **[Science](docs/use-cases/science.md)** | Lab notes | Formulas with subscripts, results tables, the chart picture inside the page | <img src="images/use-cases/science-3.png" width="260" alt="A pH curve picture inside a lab note"> |
+| **[Maths](docs/use-cases/maths.md)** | Lectures, problem sets | Inline and display maths, matrices, aligned equations, cases | <img src="images/use-cases/maths-2.png" width="260" alt="Matrices and a table of powers"> |
+| **[Writers](docs/use-cases/writers.md)** | Chapters, drafts | A calm serif page, italics and quotes, footnotes you can click, three font sets | <img src="images/use-cases/writers-1.png" width="260" alt="The opening of a short story"> |
+| **[AI answers](docs/use-cases/ai-answers.md)** | Saved answers from any AI assistant | Tables, steps, a formula, a checklist and code, as a page instead of raw symbols | <img src="images/use-cases/ai-answers-1.png" width="260" alt="A saved answer with a weekly table"> |
+
+Try the same notes yourself: [samples](samples/).
+
+---
+
+## Every Markdown element it draws
+
+| Element | You write | Notes |
+|:--|:--|:--|
+| Headings, **bold**, *italic*, ~~strike~~, `code` | `# Title`, `**bold**`, `*italic*` | |
+| Lists and task lists | `- item`, `1. item`, `- [ ] to do`, `- [x] done` | Ticked and empty boxes |
+| Quotes | `> quoted text` | |
+| Tables | `\| a \| b \|` with `:--` / `--:` | Column alignment; wide tables scroll sideways |
+| Code blocks | ` ```python ` | Colours for 28 languages, Copy button. Fence name in lower case. |
+| Maths | `$x^2$`, `$$\frac{a}{b}$$` | Matrices, aligned equations, cases. A formula it cannot draw is shown as its source. |
+| Footnotes | `text[^1]` | Click to jump and back |
+| Callouts | `> [!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]`, `[!CAUTION]` | |
+| Collapsible sections | `<details><summary>…</summary>…</details>` | |
+| Front matter | `---` block at the top | Shown as a box |
+| Pictures | `![text](figures/chart.png)` | Local pictures; web pictures are never downloaded |
+| Links | `[text](other-note.md#heading)`, bare `https://…` | Between notes, to headings, to the web |
+| Mermaid diagrams | ` ```mermaid ` | Off by default. When on, diagram text is sent to mermaid.ink to be drawn. |
+
+Shown as plain text, never broken: `[[wiki links]]`, `==highlight==`, `:emoji:` codes, other
+HTML. Full list, with what it does not do: [What it does](docs/what-it-does.md).
+
+---
+
+## Folders and agents
+
+Add a folder. When an agent, a script or another app writes a file there, it appears with
+**N** (new) or **U** (updated) within a second. An open note updates by itself.
 
 ![An agent creates a report and edits a runbook; PilcrowMD marks them N and U and updates the open page](images/agent-folder.gif)
 
-An agent writes `benchmark.md` → it appears with **N**. It edits `runbook.md` → **U**.
-You open the report; when the agent adds a section, the page updates by itself.
-More: [Folders and agents](docs/folders-and-agents.md).
-
-## And when you both edit the same file
+If you are editing a file and an agent saves it too, PilcrowMD shows a banner and asks before
+saving: **Save As… / Overwrite / Cancel**. Cancel writes nothing.
 
 ![You have an unsaved edit; the agent saves the same file; a banner warns you and saving asks first](images/agent-conflict.gif)
 
-You are editing; the agent saves the same file. PilcrowMD shows a banner, and when you save
-it asks: **Save As… / Overwrite / Cancel**. Cancel writes nothing. More:
-[Your files are safe](docs/your-files-are-safe.md).
+More: [Folders and agents](docs/folders-and-agents.md) · [AI agents use case](docs/use-cases/agents.md)
 
 ---
 
-## What it does
+## Your files are safe
 
-- **Read, Split, Edit** – three modes, switch with ⌥⌘1 / ⌥⌘2 / ⌥⌘3.
-- **Live folders** – add any folder; subfolders, new and updated marks, links between notes.
-- **Tabs, Outline, Find, PDF export, text size, Light and Dark themes, three font sets.**
-- **Markdown it draws:** tables, task lists, code with colours for 28 languages, maths,
-  footnotes, callouts, collapsible sections, front matter, local pictures.
-- **Safe saving:** writes only when you edited, all-or-nothing saves, keeps BOM and line endings,
-  never silently overwrites another app's changes.
-- **Private:** no account, no tracking, no network – except Mermaid diagrams, which are off
-  until you turn them on.
+- Nothing is written unless you edit. A save is all-or-nothing.
+- Another app's changes are never overwritten without asking you.
+- No account, no tracking, no network – except Mermaid diagrams, which are off until you turn them on.
 
-Full list, with what it does **not** do: [What it does](docs/what-it-does.md).
-Pictures for nine kinds of work: [Use cases](docs/use-cases.md).
-Try the same notes yourself: [samples](samples/).
-
-| Light theme | Split view |
-|---|---|
-| ![A quarterly review in the Light theme](images/use-business-light.png) | ![Markdown on the left, the page on the right](images/split-light.png) |
+Like the Android app, the Mac app draws every page natively, with no web view or browser engine.
+Details: [Your files are safe](docs/your-files-are-safe.md).
 
 ---
 
-## PilcrowMD on Android
+## Also on Android
 
-Read your notes on your phone too. The Android app is released, open source (GPL-3.0),
-and available on Google Play and F-Droid.
+The Android app is released, open source (GPL-3.0), on Google Play and F-Droid.
 
 [<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.pilcrowmd&referrer=utm_source%3Dgithub%26utm_campaign%3Dmac_readme)
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/com.pilcrowmd/)
@@ -68,29 +94,27 @@ Source and releases: [github.com/pilcrowmd/pilcrow](https://github.com/pilcrowmd
 
 ---
 
-## Requirements
-
-- macOS 14 (Sonoma) or later.
-- Tested on Apple Silicon (M1 and newer). The download also contains an Intel build, which has
-  not been tested.
-
 ## Install
+
+macOS 14 (Sonoma) or later. Tested on Apple Silicon; the download also contains an Intel
+build, which has not been tested.
 
 Download the DMG, open it, drag PilcrowMD into Applications. The first time you open it,
 macOS blocks it because the app is not yet signed by Apple; you allow it once under
-**System Settings › Privacy & Security › Open Anyway**.
+**System Settings › Privacy & Security › Open Anyway**. Every step, with a picture:
+[INSTALL.md](INSTALL.md).
 
-Every step, with a picture: [INSTALL.md](INSTALL.md).
+To remove it, drag it to the Trash. To remove its data too, delete
+`~/Library/Preferences/com.pilcrowmd.mac.plist` and the folder
+`~/Library/Application Support/PilcrowMac/`.
 
 ## Known issues in this beta
 
 - **Unsaved edits are lost if the app crashes.** There is no autosave. Save often.
-- **Mixed line endings become uniform when you save.** If one file mixes Windows (CRLF) and
-  Mac/Linux (LF) line endings, every line gets the same ending. Files that use one style
-  throughout are saved exactly as they were.
+- **Mixed line endings become uniform when you save.** Files that use one style throughout
+  are saved exactly as they were.
 - **A lone carriage return becomes a line break** when you save.
-- **Saving breaks hard links.** Other hard-linked names keep the old text. Aliases and
-  symbolic links are not affected.
+- **Saving breaks hard links.** Aliases and symbolic links are not affected.
 - **"Changed" means date or size.** A tool that rewrites a file with exactly the same date and
   size is not noticed.
 - **Only UTF-8 files open.** Other encodings are refused with a message saying so.
@@ -102,20 +126,14 @@ Every step, with a picture: [INSTALL.md](INSTALL.md).
 - **Not signed or notarized by Apple** yet – see Install.
 - **Intel Macs are untested.**
 
-## Remove
-
-Drag PilcrowMD from Applications to the Trash. To remove its data too, delete
-`~/Library/Preferences/com.pilcrowmd.mac.plist` and the folder
-`~/Library/Application Support/PilcrowMac/`.
-
 ## Report a problem
 
 [Open an issue on GitHub](https://github.com/pilcrowmd/pilcrow-mac/issues)
 
 ## Licence
 
-This beta is free to use, including at work. You may install it on any number of Macs and share the link
-to the download page. Please do not put the installer on other sites. You may not sell it, change it, or present it as your own.
-Provided as is, without warranty – keep backups of your files.
+Free to use, including at work. Install it on any number of Macs and share the link to the
+download page. Please do not put the installer on other sites. You may not sell it, change
+it, or present it as your own. Provided as is, without warranty – keep backups of your files.
 
 Full text: [LICENSE.md](LICENSE.md).

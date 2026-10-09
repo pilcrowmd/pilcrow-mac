@@ -1,7 +1,7 @@
 # Folders and agents
 
 Add a folder once. PilcrowMD lists every Markdown file in it and keeps the list live.
-When another app — an editor, a sync tool, a script, an AI agent — creates or changes
+When another app – an editor, a sync tool, a script, an AI agent – creates or changes
 a file there, you see it within a second. You never have to press refresh.
 
 This page explains what you see, and exactly what the app does and does not do.
@@ -84,8 +84,8 @@ The page reloads with the new text, and keeps your scroll position.
 
 ![The agent adds an Update section; the open page and the outline update](../images/agent-report-reader.png)
 
-> **Note:** in this beta the reload is silent. If you were reading, nothing tells you the
-> text changed. A short notice ("Updated by another app") is planned for the next update.
+A short notice tells you it happened: *"This file was updated by another app."*
+**Close** hides it.
 
 ### You have unsaved edits
 

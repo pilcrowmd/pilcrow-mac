@@ -1,53 +1,118 @@
-# Lab note: titrating the acid in vinegar
+---
+experiment: Concentration of hydrochloric acid by titration
+lab: Teaching lab 2
+date: 2026-10-06
+analyst: Group B
+instrument: 50 mL burette (class A), pH meter
+---
 
-**Aim.** Find the concentration of ethanoic acid, $\ce{CH3COOH}$, in a household vinegar by titrating it with sodium hydroxide, $\ce{NaOH}$.
+# Lab note: concentration of HCl by titration
 
-## The reaction
+> [!NOTE]
+> Teaching example. The method and numbers are typical, not from a real lab record.
 
-Ethanoic acid reacts with sodium hydroxide in a one-to-one ratio:
+## Aim
+
+Find the concentration of a hydrochloric acid solution by titrating it with sodium hydroxide
+of known concentration, $c_{\mathrm{NaOH}} = 0.100\ \mathrm{mol\,L^{-1}}$.
+
+## Reaction
 
 $$
-\ce{CH3COOH + NaOH -> CH3COONa + H2O}
+\mathrm{HCl(aq)} + \mathrm{NaOH(aq)} \longrightarrow \mathrm{NaCl(aq)} + \mathrm{H_2O(l)}
 $$
 
-At the end point the indicator turns pale pink. Because the ratio is 1:1, the amount of base added equals the amount of acid in the sample.
+The ionic equation is simply $\mathrm{H^+ + OH^- \rightarrow H_2O}$. One mole of acid reacts
+with one mole of base, so at the equivalence point:
+
+$$
+c_{\mathrm{HCl}} = \frac{c_{\mathrm{NaOH}} \times V_{\mathrm{NaOH}}}{V_{\mathrm{HCl}}}
+$$
+
+## Equipment and chemicals
+
+| Item | Details |
+|:--|:--|
+| Burette | 50.00 mL, class A, ±0.05 mL |
+| Pipette | 25.00 mL, class A, ±0.03 mL |
+| Indicator | Phenolphthalein, 2 drops |
+| Base | $\mathrm{NaOH}$, 0.100 mol/L (standardised) |
+| Acid | $\mathrm{HCl}$, unknown concentration |
+
+> [!CAUTION]
+> Sodium hydroxide harms the eyes. Wear goggles for the whole session.
 
 ## Method
 
-1. Dilute 10.00 mL of vinegar to 100.0 mL with distilled water in a volumetric flask.
-2. Pipette a 10.00 mL portion of the dilute solution into a conical flask and add three drops of phenolphthalein.
-3. Fill the burette with 0.100 mol/L sodium hydroxide solution.
-4. Add the base slowly, swirling, until the pink colour lasts for 30 seconds.
-5. Repeat until three readings agree within 0.10 mL.
+1. Rinse the burette with NaOH solution, then fill it and note the start reading.
+2. Pipette 25.00 mL of HCl into a conical flask and add 2 drops of phenolphthalein.
+3. Add NaOH until a faint pink colour stays for 30 seconds.
+4. Note the end reading. Repeat until three titres agree within 0.10 mL.
 
 ## Results
 
-| Trial | Start (mL) | End (mL) | Volume (mL) |
-| ----- | ---------: | -------: | ----------: |
-| 1 | 0.40 | 8.70 | 8.30 |
-| 2 | 0.90 | 9.25 | 8.35 |
-| 3 | 1.30 | 9.60 | 8.30 |
+| Run | Start (mL) | End (mL) | Titre (mL) | Used? |
+|:--:|--:|--:|--:|:--:|
+| Rough | 0.00 | 25.60 | 25.60 | no |
+| 1 | 0.20 | 25.15 | 24.95 | yes |
+| 2 | 0.10 | 25.10 | 25.00 | yes |
+| 3 | 0.35 | 25.40 | 25.05 | yes |
 
-The three titres agree within 0.10 mL, so all are accepted. Their mean is 8.32 mL.
+Mean of the three concordant titres:
+
+$$
+\bar{V}_{\mathrm{NaOH}} = \frac{24.95 + 25.00 + 25.05}{3} = 25.00\ \mathrm{mL}
+$$
 
 ## Calculation
 
-The amount of base used is the concentration times the volume:
-
 $$
-n(\ce{NaOH}) = 0.100\ \text{mol/L} \times 0.00832\ \text{L} = 8.32 \times 10^{-4}\ \text{mol}
+c_{\mathrm{HCl}} = \frac{0.100 \times 25.00}{25.00} = 0.100\ \mathrm{mol\,L^{-1}}
 $$
 
-The same amount of acid was in the 10.00 mL portion, so:
+Relative uncertainty, combining burette, pipette and base concentration:
 
 $$
-c(\ce{CH3COOH}) = \frac{8.32 \times 10^{-4}\ \text{mol}}{0.01000\ \text{L}} = 0.0832\ \text{mol/L}
+\frac{\Delta c}{c} = \sqrt{\left(\frac{0.10}{25.00}\right)^2 + \left(\frac{0.03}{25.00}\right)^2 + \left(\frac{0.001}{0.100}\right)^2} \approx 1.1\%
 $$
 
-The vinegar was diluted ten times, so the original concentration is 0.832 mol/L. With a molar mass of 60.05 g/mol this is about 50.0 g/L, or 5.0% by mass per volume. That matches the 5% on the label.
+**Result:** $c_{\mathrm{HCl}} = 0.100 \pm 0.001\ \mathrm{mol\,L^{-1}}$.
 
-## Notes
+## pH curve
 
-- Swirling matters: the pink colour appears locally before it lasts.
-- Rinse the burette with a little of the base solution before filling it. Water left inside lowers the concentration.
-- Next time, test a second brand and compare the two results.
+A second run with a pH meter shows the sharp rise at the equivalence point, as expected for
+a strong acid and a strong base.
+
+![pH against volume of NaOH added, with a sharp rise at 25.0 mL](figures/titration-curve.png)
+
+| Region | Volume (mL) | pH |
+|:--|--:|--:|
+| Start | 0.0 | 1.0 |
+| Half-way | 12.5 | 1.5 |
+| Equivalence | 25.0 | 7.0 |
+| Excess base | 30.0 | 12.0 |
+
+## Discussion
+
+- The rough titre overshot by about 0.6 mL, which is normal for a first run.
+- Phenolphthalein changes colour between pH 8.2 and 10.0. On this curve that range sits
+  inside the steep part, so the indicator error is below one drop.[^drop]
+- The largest source of uncertainty is the stated concentration of the base.
+
+<details>
+<summary>Raw pH-meter readings</summary>
+
+| Volume (mL) | 0 | 5 | 10 | 15 | 20 | 24 | 25 | 26 | 30 | 35 |
+|:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|
+| pH | 1.00 | 1.18 | 1.37 | 1.60 | 1.95 | 2.69 | 7.00 | 11.29 | 11.96 | 12.22 |
+
+</details>
+
+## Checklist
+
+- [x] Burette rinsed with NaOH
+- [x] Three concordant titres
+- [x] Waste neutralised before disposal
+- [ ] Results entered in the shared sheet
+
+[^drop]: One drop from this burette is about 0.05 mL.

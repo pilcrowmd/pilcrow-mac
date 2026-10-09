@@ -8,7 +8,7 @@ The pages you see in the screenshots, ready to try.
 
 | Folder | Notes |
 |---|---|
-| Engineering | readme.md, runbook.md |
+| Engineering | readme.md, runbook.md, alert-flow.md (a Mermaid diagram) |
 | Business | q3-review.md, spec.md, agreement.md |
 | Research | lab-note.md, lecture.md |
 | Writing | chapter-3.md, ai-answer.md |

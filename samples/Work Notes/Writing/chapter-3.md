@@ -1,3 +1,11 @@
+---
+title: The Lamplighter of Greywater Quay
+form: Short story – draft 2
+pen_name: E. Marsh
+words: 1,850
+status: With editor
+---
+
 # The Lamplighter of Greywater Quay
 
 > A lamp on a quay is not only a light. It is a mark, and a mark is a promise: *the harbour is this way.*
@@ -102,6 +110,8 @@ That night she did not light the lamps in order.
 
 She started at the pier, with the last one, and she worked back along the quay, so that the whole length of Greywater came alive behind her instead of ahead. It was an odd feeling. Forty-two small flames, and each one steadier than the one before, as if the town were slowly waking up.
 
+* * *
+
 At the net loft she stopped. Someone was waiting by the door: a tall man in a council coat, holding his hat in both hands.
 
 "Mrs Holloway," he said. "I understand you have been measuring."
@@ -130,7 +140,31 @@ The electric posts still came, in the end, and they were good ones, tall and cle
 
 *Forty-two,* she said to herself, as she always did. *And every one of them is mine.*
 
+---
+
+## Editor's notes
+
+> [!NOTE]
+> Draft 2 reads well aloud. Three small points for draft 3.
+
+1. **Chapter Two.** Ivy's first line is strong. Keep it.
+2. **Chapter Four.** "Two paces" could be clearer for readers who don't sail. One sentence on
+   how narrow the channel is would help.
+3. **Epilogue.** Consider ending on the lamps, not on Maren – your call.
+
+<details>
+<summary>Chapter word counts</summary>
+
+| Chapter | Words |
+|:--|--:|
+| One – The Last Lamp | 290 |
+| Two – A Visitor at the Pier | 260 |
+| Three – What the Lamps Remember | 360 |
+| Four – The Measure of the Quay | 420 |
+| Five – The Quiet Hours | 280 |
+| Epilogue – Morning | 200 |
+
+</details>
+
 [^1]: The motion passed by seven votes to six. One councillor, who had grown up on the quay, left the room before the count and did not return.
 [^2]: Teodor Vane's own phrase for this was "the contract of the dark": an agreement that no one signs and everyone keeps.
-
-Agent note: proofread, two typos fixed.

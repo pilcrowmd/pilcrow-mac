@@ -21,7 +21,7 @@ every rule the app follows when it saves, in plain words, so you can check them.
 
 ---
 
-## What happens when you save — step by step
+## What happens when you save – step by step
 
 1. You press ⌘S (or close, quit, or leave the note and choose Save).
 2. If you made no edits, nothing happens.

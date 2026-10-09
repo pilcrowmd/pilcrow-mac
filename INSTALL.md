@@ -1,6 +1,3 @@
-<!-- DRAFT for the public download page — batch 50, 2 Oct 2026. Not published.
-     Dialog wording to be confirmed by hand on macOS 26 before publishing. -->
-
 # Installing PilcrowMD (Mac)
 
 PilcrowMD is a beta. It is not signed with a paid Apple developer
@@ -10,11 +7,11 @@ normally.
 
 (You may see the word "notarized" in this guide. Notarized means Apple has
 checked an app and stamped it as safe. An app without a paid developer
-account cannot be notarized — that is why macOS asks you to confirm instead.)
+account cannot be notarized – that is why macOS asks you to confirm instead.)
 
 You need a Mac with macOS 14 (Sonoma) or later.
 
-The download files are named `PilcrowMD-<version>-mac.dmg` — for example
+The download files are named `PilcrowMD-<version>-mac.dmg` – for example
 `PilcrowMD-0.1-mac.dmg`. In the steps below, read `<version>` as that number.
 
 ## 1. Download
@@ -24,7 +21,7 @@ Downloads folder.
 
 ![The DMG file in a Finder window](images/install-01-download.png)
 
-## 2. Optional — check the download
+## 2. Optional – check the download
 
 This step is optional. It checks the download was not damaged on the way.
 
@@ -55,20 +52,20 @@ Drag the PilcrowMD icon onto the Applications shortcut, then release.
 You can then close the DMG window. In Finder's sidebar, under Locations,
 click the eject button next to "PilcrowMD".
 
-## 5. First open — blocked
+## 5. First open – blocked
 
 Open PilcrowMD from your Applications folder. macOS blocks the first open
 with a message:
 
-> **“PilcrowMD” Not Opened** — Apple could not verify “PilcrowMD” is free of
+> **“PilcrowMD” Not Opened** – Apple could not verify “PilcrowMD” is free of
 > malware that may harm your Mac or compromise your privacy.
 
-This is expected. Click **Done**. Do not click **Move to Trash** — that
+This is expected. Click **Done**. Do not click **Move to Trash** – that
 deletes the app.
 
 ![The macOS message saying the app cannot be opened](images/install-05-blocked.png)
 
-## 6. Privacy & Security — Open Anyway
+## 6. Privacy & Security – Open Anyway
 
 Open **System Settings** › **Privacy & Security**. Scroll to the bottom, to
 the **Security** section. There is a note:
@@ -84,7 +81,7 @@ Click the **Open Anyway** button next to it.
 ## 7. Confirm
 
 A box asks once more: **Open “PilcrowMD”?** with three buttons.
-Click **Open Anyway**. Do not click **Move to Trash** — that deletes the app.
+Click **Open Anyway**. Do not click **Move to Trash** – that deletes the app.
 
 ![The box with Move to Trash, Open Anyway and Done](images/install-07-confirm.png)
 

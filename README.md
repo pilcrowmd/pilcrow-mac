@@ -5,10 +5,28 @@ was meant to look. Edit it, see the result side by side, export it to PDF.
 Built for the age of AI agents: it watches your folders and shows every new or changed file
 within a second.
 
-**[Download PilcrowMD 0.1 beta (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.1-beta)** ·
+**[Download PilcrowMD 0.1.1 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.1.1)** ·
 macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ![PilcrowMD showing a project README, with the folder sidebar on the left and the outline on the right](images/use-coders.png)
+
+---
+
+## Reading looks
+
+Every note can be read in one of three looks. Calm is the default: roomy and
+easy on the eyes. Document is denser, like a printed page. Open has shorter
+lines and more space around them.
+
+You switch looks from the menu in the toolbar, or in Settings under Reader.
+Settings under Reader also offers Line width (narrower or wider lines) and
+Line spacing (closer or more relaxed lines).
+
+![The same runbook read in Calm, Document and Open](images/looks-compare.png)
+
+![The look menu in the toolbar](images/looks-menu.png)
+
+![Settings under Reader: Look, Line width, Line spacing](images/settings-reader.png)
 
 ---
 
@@ -120,9 +138,6 @@ To remove it, drag it to the Trash. To remove its data too, delete
 - **Only UTF-8 files open.** Other encodings are refused with a message saying so.
 - **Some characters do not draw inside maths:** curly double quotes and `\blacksquare`.
   The formula then shows as its source text; nothing is lost.
-- **The window can grow too tall in Split view.** When another app changes the file while you
-  have unsaved edits, the window may become taller than the screen while the banner shows.
-  Your edits are not affected. Once the banner is gone, the window can be made smaller again.
 - **Not signed or notarized by Apple** yet – see Install.
 - **Intel Macs are untested.**
 

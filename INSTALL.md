@@ -12,7 +12,7 @@ account cannot be notarized – that is why macOS asks you to confirm instead.)
 You need a Mac with macOS 14 (Sonoma) or later.
 
 The download files are named `PilcrowMD-<version>-mac.dmg` – for example
-`PilcrowMD-0.1-mac.dmg`. In the steps below, read `<version>` as that number.
+`PilcrowMD-0.1.1-mac.dmg`. In the steps below, read `<version>` as that number.
 
 ## 1. Download
 

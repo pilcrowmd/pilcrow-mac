@@ -5,10 +5,34 @@ was meant to look. Edit it, see the result side by side, export it to PDF.
 Built for the age of AI agents: it watches your folders and shows every new or changed file
 within a second.
 
-**[Download PilcrowMD 0.1.1 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.1.1)** ·
+**[Download PilcrowMD 0.2 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.2)** ·
 macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ![PilcrowMD showing a project README, with the folder sidebar on the left and the outline on the right](images/use-coders.png)
+
+---
+
+## File history
+
+New in 0.2. PilcrowMD keeps earlier versions of your notes on your Mac, so you can see what
+changed, compare versions and restore an older one.
+
+- **See what changed.** When a note changed since you last read it, a banner says so and the
+  changes are marked in the page: highlights, or bars in the margin. In a Browse folder, the
+  Changed filter lists the notes that changed.
+- **Compare versions.** The Compare window shows two versions side by side, or the source as a
+  diff. Pick any stored version; copy the changes as a patch.
+- **Restore.** The History window lists every stored version, who changed it and how much.
+  Restore one, and the current file and any unsaved edits are kept in History first.
+
+You choose in Settings under History: on or off, which files, and how long and how much it
+keeps (10 to 30 days, 50 to 500 MB).
+
+![The History window: stored versions on the left, the chosen version and the file as it is now side by side](images/history-window.png)
+
+![The Compare window showing the source as a diff](images/compare-source.png)
+
+![A changed note with its changes highlighted and the Changed banner](images/changed-banner.png)
 
 ---
 
@@ -128,7 +152,8 @@ To remove it, drag it to the Trash. To remove its data too, delete
 
 ## Known issues in this beta
 
-- **Unsaved edits are lost if the app crashes.** There is no autosave. Save often.
+- **There is no autosave.** After a crash, PilcrowMD offers to restore edits you had not saved,
+  but save often.
 - **Mixed line endings become uniform when you save.** Files that use one style throughout
   are saved exactly as they were.
 - **A lone carriage return becomes a line break** when you save.

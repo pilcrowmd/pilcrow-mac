@@ -32,7 +32,7 @@ keeps (10 to 30 days, 50 to 500 MB).
 
 ![The Compare window showing the source as a diff](images/compare-source.png)
 
-![A changed note with its changes highlighted and the Changed banner](images/changed-banner.png)
+![A changed note, with a bar in the margin beside each change](images/changed-banner.png)
 
 ---
 

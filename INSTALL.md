@@ -63,6 +63,9 @@ with a message:
 This is expected. Click **Done**. Do not click **Move to Trash** – that
 deletes the app.
 
+Answer this message before you open PilcrowMD again. While it is still on the
+screen, opening the app again does nothing and PilcrowMD seems stuck.
+
 ![The macOS message saying the app cannot be opened](images/install-05-blocked.png)
 
 ## 6. Privacy & Security – Open Anyway

@@ -12,30 +12,6 @@ macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ---
 
-## File history
-
-New in 0.2. PilcrowMD keeps earlier versions of your notes on your Mac, so you can see what
-changed, compare versions and restore an older one.
-
-- **See what changed.** When a note changed since you last read it, a banner says so and the
-  changes are marked in the page: highlights, or bars in the margin. In a Browse folder, the
-  Changed filter lists the notes that changed.
-- **Compare versions.** The Compare window shows two versions side by side, or the source as a
-  diff. Pick any stored version; copy the changes as a patch.
-- **Restore.** The History window lists every stored version, who changed it and how much.
-  Restore one, and the current file and any unsaved edits are kept in History first.
-
-You choose in Settings under History: on or off, which files, and how long and how much it
-keeps (10 to 30 days, 50 to 500 MB).
-
-![The History window: stored versions on the left, the chosen version and the file as it is now side by side](images/history-window.png)
-
-![The Compare window showing the source as a diff](images/compare-source.png)
-
-![A changed note, with a bar in the margin beside each change](images/changed-banner.png)
-
----
-
 ## Reading looks
 
 Every note can be read in one of three looks. Calm is the default: roomy and

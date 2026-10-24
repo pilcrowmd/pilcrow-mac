@@ -2,13 +2,44 @@
 
 A native Markdown reader and editor for the Mac. Open a `.md` file and read it the way it
 was meant to look. Edit it, see the result side by side, export it to PDF.
-Built for the age of AI agents: it watches your folders and shows every new or changed file
-within a second.
+Built for the age of AI agents: it watches your folders, shows every new or changed file
+within a second, and keeps earlier versions so you can see exactly what changed.
 
-**[Download PilcrowMD 0.2 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.2)** ·
+**[Download PilcrowMD 0.3 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3)** ·
 macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
-![PilcrowMD showing a project README, with the folder sidebar on the left and the outline on the right](images/use-coders.png)
+![A runbook an agent has just edited: a banner says it changed since you last read it, and each change is highlighted in the page](images/changed-highlights.png)
+
+---
+
+## File history
+
+New in 0.3. PilcrowMD keeps earlier versions of your notes on your Mac, so you can see what
+changed, compare versions and go back to an older one.
+
+- **See what changed.** When a note changed since you last read it, a banner says so. Click
+  Highlight changes and every change is marked in the page, as highlights or as bars in the
+  margin. In Browse, the Changed filter lists the notes that changed.
+- **Compare versions.** The Compare window shows two versions side by side, as the rendered
+  page or as the source. Pick any stored version; copy the changes as a patch.
+- **Go back.** The History window lists every stored version, who changed it and how much.
+  Restore one, and the file as it is now and any unsaved edits are kept in History first.
+
+File history is off until you turn it on: PilcrowMD asks once, at first launch. In Settings
+under History you choose which files (files you save, every file you open, or all files in
+folders added to Browse), how long copies are kept (10, 20 or 30 days) and how much space they
+may use (50 to 500 MB). Copies stay on your Mac.
+
+![The Compare window: the earlier version and the file as it is now, side by side, with the changes marked](images/compare-reader.png)
+
+![The History window: stored versions on the left, the chosen version and the file as it is now side by side](images/history-window.png)
+
+### Also new in 0.3
+
+- **⌘B, ⌘I and ⌘K** make text bold, italic or a link, also from the new Format menu.
+- **Quick Look:** press Space on a `.md` file in Finder to see it drawn the PilcrowMD way.
+- **Maths:** `\middle|` now draws.
+- A new window opens at 1100 × 800, with a wider left pane.
 
 ---
 
@@ -22,7 +53,7 @@ You switch looks from the menu in the toolbar, or in Settings under Reader.
 Settings under Reader also offers Line width (narrower or wider lines) and
 Line spacing (closer or more relaxed lines).
 
-![The same runbook read in Calm, Document and Open](images/looks-compare.png)
+![The same runbook read in Calm, Document and Open, one above the other](images/looks-compare.png)
 
 ![The look menu in the toolbar](images/looks-menu.png)
 

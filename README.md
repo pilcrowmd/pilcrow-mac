@@ -25,10 +25,11 @@ changed, compare versions and go back to an older one.
 - **Go back.** The History window lists every stored version, who changed it and how much.
   Restore one, and the file as it is now and any unsaved edits are kept in History first.
 
-File history is off until you turn it on: PilcrowMD asks once, at first launch. In Settings
-under History you choose which files (files you save, every file you open, or all files in
-folders added to Browse), how long copies are kept (10, 20 or 30 days) and how much space they
-may use (50 to 500 MB). Copies stay on your Mac.
+File history is off until you turn it on: PilcrowMD asks once, at first launch. Once it is on,
+it keeps copies of all files in folders added to Browse, so a change an agent makes to a note
+you only read is kept too. In Settings under History you can change which files (files you
+save, every file you open, or all files in folders added to Browse), how long copies are kept
+(10, 20 or 30 days) and how much space they may use (50 to 500 MB). Copies stay on your Mac.
 
 ![The Compare window: the earlier version and the file as it is now, side by side, with the changes marked](images/compare-reader.png)
 

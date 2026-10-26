@@ -14,6 +14,8 @@ macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ## File history
 
+![An agent edits a runbook you are reading: a banner says it changed, Highlight changes marks each change, Compare shows the two versions side by side, and the History window lists every stored version](images/file-history.gif)
+
 New in 0.3. PilcrowMD keeps earlier versions of your notes on your Mac, so you can see what
 changed, compare versions and go back to an older one.
 
@@ -41,6 +43,10 @@ save, every file you open, or all files in folders added to Browse), how long co
 - **Quick Look:** press Space on a `.md` file in Finder to see it drawn the PilcrowMD way.
 - **Maths:** `\middle|` now draws.
 - A new window opens at 1100 × 800, with a wider left pane.
+
+![The Format menu: Bold ⌘B, Italic ⌘I and Link ⌘K](images/format-menu.png)
+
+![Space on runbook.md in Finder: the Quick Look preview draws it the PilcrowMD way, with an Open with PilcrowMD button](images/quicklook.png)
 
 ---
 

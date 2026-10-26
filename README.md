@@ -42,7 +42,7 @@ save, every file you open, or all files in folders added to Browse), how long co
 
 - **⌘B, ⌘I and ⌘K** make text bold, italic or a link, also from the new Format menu.
 - **Quick Look:** press Space on a `.md` file in Finder to see it drawn the PilcrowMD way.
-- **Maths:** `\middle|` now draws.
+- **Maths:** `\middle|` now draws (it does not yet stretch to the bracket height).
 - A new window opens at 1100 × 800, with a wider left pane.
 
 ![The Format menu: Bold ⌘B, Italic ⌘I and Link ⌘K](images/format-menu.png)

@@ -20,10 +20,11 @@ New in 0.3. PilcrowMD keeps earlier versions of your notes on your Mac, so you c
 changed, compare versions and go back to an older one.
 
 - **See what changed.** When a note changed since you last read it, a banner says so. Click
-  Highlight changes and every change is marked in the page, as highlights or as bars in the
-  margin. In Browse, the Changed filter lists the notes that changed.
+  Highlight changes and every change is highlighted in the page: blue where text was added,
+  orange where it was removed or edited. In Browse, the Changed filter lists the notes that
+  changed.
 - **Compare versions.** The Compare window shows two versions side by side, as the rendered
-  page or as the source. Pick any stored version; copy the changes as a patch.
+  page or as the source. Pick any stored version.
 - **Go back.** The History window lists every stored version, who changed it and how much.
   Restore one, and the file as it is now and any unsaved edits are kept in History first.
 

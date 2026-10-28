@@ -65,7 +65,7 @@ Line spacing (closer or more relaxed lines).
 
 ![The look menu in the toolbar](images/looks-menu.png)
 
-![Settings under Reader: Look, Line width, Line spacing](images/settings-reader.png)
+![The Look setting in Settings under Reader: Calm, Document, Open](images/settings-reader-look.png)
 
 ---
 

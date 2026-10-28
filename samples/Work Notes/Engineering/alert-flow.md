@@ -20,5 +20,4 @@ flowchart LR
 | Alert to the phone | 30 s |
 
 > [!NOTE]
-> This diagram is drawn by Mermaid. In PilcrowMD, Mermaid is off until you switch it on in
-> Settings › Reader; then the diagram text is sent to mermaid.ink to be drawn.
+> This diagram is drawn by Mermaid. PilcrowMD draws it on your Mac, with no internet.

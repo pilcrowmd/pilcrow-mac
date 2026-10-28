@@ -39,7 +39,7 @@ A plain list. If something is not on the "does" side, assume it is not there yet
 | Front matter | The `---` block at the top, shown as a YAML box |
 | Pictures | Local pictures up to 50 MB. **Web pictures are never downloaded** – a box shows the description and the address instead. |
 | Links | Web links, email, links between notes, heading links. Bare `https://…`, `www.…` and email addresses become links. |
-| Mermaid diagrams | **Off by default.** When you turn it on, each diagram's text is sent to mermaid.ink to be drawn. Off, it is shown as code. |
+| Mermaid diagrams | Drawn on your Mac, with no internet. A diagram it cannot draw is shown as its code. |
 
 Pictures of each kind of document: [Use cases](use-cases.md).
 
@@ -58,8 +58,7 @@ as you typed them:
 ## Privacy
 
 - No accounts, no tracking, no analytics, no ads.
-- The app makes **no network connections**, with one exception you must switch on yourself:
-  Mermaid diagrams (Settings › Reader). Then each diagram's text is sent to mermaid.ink.
+- The app makes **no network connections**. Mermaid diagrams are drawn on your Mac.
 - Web pictures in your notes are never fetched.
 - Links open in your browser only when you click them.
 
@@ -75,7 +74,6 @@ as you typed them:
 | Appearance | Reading and code font: Classic / Book / Modern | Classic |
 | Reader | Preview text size | 100% |
 | Reader | Wrap long lines in code blocks | Off |
-| Reader | Mermaid diagrams (online) | Off |
 | Editor | Edit text size | 100% |
 | Editor | Line numbers | On |
 
@@ -102,6 +100,6 @@ as you typed them:
 
 - macOS 14 (Sonoma) or later.
 - Tested on Apple Silicon. The download also contains an Intel build, which has not been tested.
-- Not signed or notarized by Apple yet – the first open needs one extra step ([Install](../INSTALL.md)).
+- Signed and notarized by Apple. macOS asks once before the first open ([Install](../INSTALL.md)).
 - Not sandboxed. It reads and writes only the files and folders you open or add.
 - Opens `.md`, `.markdown` and `.txt` files.

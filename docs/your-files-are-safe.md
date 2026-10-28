@@ -1,8 +1,7 @@
 # Your files are safe
 
 PilcrowMD opens your files and writes them back. It does not keep its own copy, does not
-upload your files (the one exception: if you turn Mermaid on, the text of each diagram is sent
-to mermaid.ink to be drawn), and does not change what you wrote unless you edit it. This page lists
+upload your files, and does not change what you wrote unless you edit it. This page lists
 every rule the app follows when it saves, in plain words, so you can check them.
 
 ---
@@ -18,7 +17,7 @@ every rule the app follows when it saves, in plain words, so you can check them.
 | **Cancel means nothing is written** | In every save box, Cancel leaves the file on disk exactly as it was. |
 | **Your bytes stay yours** | A file that starts with a byte-order mark (BOM) keeps it. A file without one never gets one. Windows (CRLF) and Mac/Linux (LF) line endings are kept. |
 | **No autosave** | The app only writes when you save. |
-| **No network** | The app makes no network connections, with one opt-in exception (Mermaid diagrams, see Privacy). |
+| **No network** | The app makes no network connections. Mermaid diagrams are drawn on your Mac. |
 
 ---
 

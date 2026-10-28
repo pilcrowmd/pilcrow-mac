@@ -38,7 +38,7 @@ Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › 
 
 - Code is shown exactly as typed, in JetBrains Mono, without font ligatures.
 - The language name after the three backticks must be lower case: `python`, not `Python`.
-- Mermaid diagrams are off by default. When you turn them on, each diagram is sent to mermaid.ink to be drawn.
+- Mermaid diagrams are drawn on your Mac, with no internet.
 
 ---
 

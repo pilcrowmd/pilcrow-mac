@@ -5,7 +5,7 @@ was meant to look. Edit it, see the result side by side, export it to PDF.
 Built for the age of AI agents: it watches your folders, shows every new or changed file
 within a second, and keeps earlier versions so you can see exactly what changed.
 
-**[Download PilcrowMD 0.3 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3)** ·
+**[Download PilcrowMD 0.3.1 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3.1)** ·
 macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ![A runbook an agent has just edited: a banner says it changed since you last read it, and each change is highlighted in the page](images/changed-highlights.png)
@@ -106,7 +106,7 @@ Try the same notes yourself: [samples](samples/).
 | Front matter | `---` block at the top | Shown as a box |
 | Pictures | `![text](figures/chart.png)` | Local pictures; web pictures are never downloaded |
 | Links | `[text](other-note.md#heading)`, bare `https://…` | Between notes, to headings, to the web |
-| Mermaid diagrams | ` ```mermaid ` | Off by default. When on, diagram text is sent to mermaid.ink to be drawn. |
+| Mermaid diagrams | ` ```mermaid ` | Drawn on your Mac, with no internet. A diagram it cannot draw is shown as its code. |
 
 Shown as plain text, never broken: `[[wiki links]]`, `==highlight==`, `:emoji:` codes, other
 HTML. Full list, with what it does not do: [What it does](docs/what-it-does.md).
@@ -133,9 +133,11 @@ More: [Folders and agents](docs/folders-and-agents.md) · [AI agents use case](d
 
 - Nothing is written unless you edit. A save is all-or-nothing.
 - Another app's changes are never overwritten without asking you.
-- No account, no tracking, no network – except Mermaid diagrams, which are off until you turn them on.
+- No account, no tracking, no network. Mermaid diagrams are drawn on your Mac too.
 
-Like the Android app, the Mac app draws every page natively, with no web view or browser engine.
+Like the Android app, the Mac app draws every page natively. The one exception is Mermaid:
+a hidden web view with no internet access turns each diagram into a picture. Nothing web is
+ever shown.
 Details: [Your files are safe](docs/your-files-are-safe.md).
 
 ---
@@ -157,8 +159,8 @@ macOS 14 (Sonoma) or later. Tested on Apple Silicon; the download also contains 
 build, which has not been tested.
 
 Download the DMG, open it, drag PilcrowMD into Applications. The first time you open it,
-macOS blocks it because the app is not yet signed by Apple; you allow it once under
-**System Settings › Privacy & Security › Open Anyway**. Every step, with a picture:
+macOS asks once whether to open an app downloaded from the internet: click **Open**.
+PilcrowMD is signed and notarized by Apple. Every step, with a picture:
 [INSTALL.md](INSTALL.md).
 
 To remove it, drag it to the Trash. To remove its data too, delete
@@ -178,7 +180,6 @@ To remove it, drag it to the Trash. To remove its data too, delete
 - **Only UTF-8 files open.** Other encodings are refused with a message saying so.
 - **Some characters do not draw inside maths:** curly double quotes and `\blacksquare`.
   The formula then shows as its source text; nothing is lost.
-- **Not signed or notarized by Apple** yet – see Install.
 - **Intel Macs are untested.**
 
 ## Report a problem

@@ -34,6 +34,8 @@ you only read is kept too. In Settings under History you can change which files 
 save, every file you open, or all files in folders added to Browse), how long copies are kept
 (10, 20 or 30 days) and how much space they may use (50 to 500 MB). Copies stay on your Mac.
 
+PilcrowMD keeps every change to a note you have open. For a note that is not open, it keeps one version per save when saves are at least a second apart; if another app saves faster, some in-between versions are not kept.
+
 ![The Compare window: the earlier version and the file as it is now, side by side, with the changes marked](images/compare-reader.png)
 
 ![The History window: stored versions on the left, the chosen version and the file as it is now side by side](images/history-window.png)

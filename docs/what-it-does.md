@@ -13,7 +13,7 @@ A plain list. If something is not on the "does" side, assume it is not there yet
 | **Sidebar** | **Recent** (last 10 files) and **My folders** (your added folders) – see [Folders and agents](folders-and-agents.md) |
 | **Contents** | The headings of the open note, on the right (⌥⌘0). Click one to jump. |
 | **Find** | ⌘F in the open note. Next ⌘G, previous ⇧⌘G. Options: Match case, Whole word, Regular expression. Searches the page in Read mode, the text in Edit mode. |
-| **Find and Replace** | ⌥⌘F, or **Edit › Find and Replace…**. Replace and Replace All; Replace All is one undo step. Not in Read mode, where Find only searches. |
+| **Find and Replace** | ⌥⌘F, or **Edit › Find and Replace…**. Replace and Replace All; Replace All is one undo step. |
 | **Save** | ⌘S. Off when there is nothing to save: a note you just opened, just saved, or undid back to what is on disk. |
 | **Languages** | English, German, French, Spanish, Chinese (Simplified), Italian, Ukrainian and Hindi. PilcrowMD follows your macOS language, or pick one for PilcrowMD only in **Settings › General › Language** (it asks to restart). |
 | **Text size** | A− / A+ in the toolbar, ⌘− / ⌘+, reset ⌘0. 85% to 160%. |

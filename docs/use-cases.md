@@ -8,7 +8,7 @@ one of our free example files. You can download the files and try them yourself:
 
 ## Developers – READMEs and project notes
 
-Code blocks with colours for 28 languages, a Copy button on each block, an outline of the
+Code blocks with colours for 28 languages, a Copy button on each block, the Contents list of the
 headings on the right. Code is shown exactly as written – no font ligatures.
 
 ![A project README with code in Python, TypeScript and Kotlin](../images/use-coders.png)
@@ -42,7 +42,7 @@ Tables with column alignment for numbers. Light theme for daytime reading and pr
 
 ## Legal – agreements and clause summaries
 
-Numbered clauses keep their numbers, long lines wrap cleanly, and the outline lets you jump
+Numbered clauses keep their numbers, long lines wrap cleanly, and Contents lets you jump
 between sections.
 
 ![A services agreement: status note and contents](../images/use-legal.png)

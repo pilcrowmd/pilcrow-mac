@@ -82,7 +82,7 @@ This is the part that protects your work. There are two cases.
 
 The page reloads with the new text, and keeps your scroll position.
 
-![The agent adds an Update section; the open page and the outline update](../images/agent-report-reader.png)
+![The agent adds an Update section; the open page and Contents update](../images/agent-report-reader.png)
 
 A short notice tells you it happened: *"This file was updated by another app."*
 **Close** hides it.

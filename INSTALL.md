@@ -7,7 +7,7 @@ before the first open, as it does for any app downloaded from the internet.
 You need a Mac with macOS 14 (Sonoma) or later.
 
 The download files are named `PilcrowMD-<version>-mac.dmg` – for example
-`PilcrowMD-0.3.1-mac.dmg`. In the steps below, read `<version>` as that number.
+`PilcrowMD-0.3.5-mac.dmg`. In the steps below, read `<version>` as that number.
 
 ## 1. Download
 

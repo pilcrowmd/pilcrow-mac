@@ -32,7 +32,7 @@ AI assistants answer in Markdown. Save the answer as a `.md` file and it reads l
 ## Try it yourself
 
 The note in the pictures: [ai-answer.md](../../samples/Work%20Notes/Writing/ai-answer.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

@@ -30,7 +30,7 @@ A runbook you can follow at 3 a.m. Warnings that stand out, commands with their 
 ## Try it yourself
 
 The note in the pictures: [runbook.md](../../samples/Work%20Notes/Engineering/runbook.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

@@ -6,13 +6,13 @@ a file there, you see it within a second. You never have to press refresh.
 
 This page explains what you see, and exactly what the app does and does not do.
 
-![The Browse sidebar with the Work Notes folder and its subfolders, a note open in the reader](../images/folders-marks.png)
+![The sidebar with the Work Notes folder and its subfolders, a note open in the reader](../images/folders-marks.png)
 
 ---
 
 ## Add a folder
 
-1. Open the sidebar (**View › Show Sidebar**, ⌃⌘S) and pick **Browse**.
+1. Open the sidebar (**View › Show Sidebar**, ⌃⌘S) and pick **My folders**.
 2. Click **+** (Add Folder) at the bottom and choose a folder.
 
 You can add as many folders as you like. Click a folder name to make it the one you are
@@ -46,7 +46,7 @@ file-system events service. It does not poll.
 | A file is renamed or moved | It shows up under its new name with an **N** mark |
 | Many files change at once | One quick refresh, not many |
 
-The list also refreshes when you switch to the app, when you open the Browse section, and
+The list also refreshes when you switch to the app, when you open the My folders section, and
 when you click **Refresh Folder** (the circular arrow).
 
 ![An agent creates a report and edits a runbook; they get N and U marks; the open page updates](../images/agent-folder.gif)
@@ -142,8 +142,8 @@ into a project folder while you read and review them in PilcrowMD.
 
 What PilcrowMD does **not** do yet:
 
-- It does not show *which lines* changed. A "show changes" view is planned.
-- It does not keep old versions. Use git, Time Machine or your agent's own history for that.
+- Showing *which lines* changed and keeping old versions need File history, which is off until
+  you turn it on. See [File history](../README.md#file-history).
 - It does not lock files. Two apps can still write the same file; PilcrowMD only makes sure
   it never overwrites the other app's work without asking you.
 

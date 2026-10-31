@@ -31,7 +31,7 @@ A lab note with formulas, units and results in tables – and the chart from the
 ## Try it yourself
 
 The note in the pictures: [lab-note.md](../../samples/Work%20Notes/Research/lab-note.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

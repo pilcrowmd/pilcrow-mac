@@ -28,8 +28,7 @@ You never lose work without choosing to. **Cancel** writes nothing.
 
 ## Good to know
 
-- PilcrowMD does not yet show *which lines* changed. A "show changes" view is planned.
-- It keeps no old versions. Use git, Time Machine or your agent's history for that.
+- To see *which lines* changed and keep old versions, turn on File history. See [File history](../../README.md#file-history).
 
 Everything in detail: [Folders and agents](../folders-and-agents.md) · [Your files are safe](../your-files-are-safe.md)
 

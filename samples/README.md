@@ -3,7 +3,7 @@
 The pages you see in the screenshots, ready to try.
 
 1. Download this repo (green **Code** button › **Download ZIP**) and unzip it.
-2. In PilcrowMD, open the sidebar, pick **Browse**, click **+** and choose the `Work Notes` folder.
+2. In PilcrowMD, open the sidebar, pick **My folders**, click **+** and choose the `Work Notes` folder.
 3. Open any note. To see live updates, change or add a `.md` file in that folder with any other app.
 
 | Folder | Notes |

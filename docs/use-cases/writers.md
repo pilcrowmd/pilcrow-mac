@@ -31,7 +31,7 @@ Long text that is easy to read: a calm serif font, italics and quotes as they sh
 ## Try it yourself
 
 The note in the pictures: [chapter-3.md](../../samples/Work%20Notes/Writing/chapter-3.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

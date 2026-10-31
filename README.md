@@ -5,10 +5,30 @@ was meant to look. Edit it, see the result side by side, export it to PDF.
 Built for the age of AI agents: it watches your folders, shows every new or changed file
 within a second, and keeps earlier versions so you can see exactly what changed.
 
-**[Download PilcrowMD 0.3.1 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3.1)** ·
+**[Download PilcrowMD 0.3.5 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3.5)** ·
 macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ![A runbook an agent has just edited: a banner says it changed since you last read it, and each change is highlighted in the page](images/changed-highlights.png)
+
+---
+
+## New in 0.3.5
+
+- **Seven more languages:** German, French, Spanish, Chinese (Simplified), Italian, Ukrainian
+  and Hindi. PilcrowMD follows your macOS language, or pick one for PilcrowMD only in
+  Settings › General › Language. The translations are new: if a word reads wrong, please tell us.
+- **Find & Replace** (⌥⌘F, or Edit › Find and Replace…): Match case, Whole word and Regular
+  expression, Replace and Replace All. Replace All is one undo step.
+- **Changes inside tables** are marked in the Reader and in Compare, row by row.
+- **File › Save (⌘S) is off when there is nothing to save:** a note you just opened, just
+  saved, or undid back to what is on disk.
+- **Maths:** `\middle|` between `\left` and `\right` now stretches to the height of its brackets.
+- **New names, the same as in the Android app:** My folders (was Browse), Recent (was Recents),
+  Contents (was Outline), Open source licenses (was Licences).
+
+All changes: [release notes](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3.5).
+
+![Find & Replace above a note in the editor: Match case, Whole word, Regular expression, Replace and Replace All](images/find-replace.png)
 
 ---
 
@@ -21,7 +41,7 @@ changed, compare versions and go back to an older one.
 
 - **See what changed.** When a note changed since you last read it, a banner says so. Click
   Highlight changes and every change is highlighted in the page: blue where text was added,
-  orange where it was removed or edited. In Browse, the Changed filter lists the notes that
+  orange where it was removed or edited. In My folders, the Changed filter lists the notes that
   changed.
 - **Compare versions.** The Compare window shows two versions side by side, as the rendered
   page or as the source. Pick any stored version.
@@ -29,9 +49,9 @@ changed, compare versions and go back to an older one.
   Restore one, and the file as it is now and any unsaved edits are kept in History first.
 
 File history is off until you turn it on: PilcrowMD asks once, at first launch. Once it is on,
-it keeps copies of all files in folders added to Browse, so a change an agent makes to a note
+it keeps copies of all files in folders added to My folders, so a change an agent makes to a note
 you only read is kept too. In Settings under History you can change which files (files you
-save, every file you open, or all files in folders added to Browse), how long copies are kept
+save, every file you open, or all files in folders added to My folders), how long copies are kept
 (10, 20 or 30 days) and how much space they may use (50 to 500 MB). Copies stay on your Mac.
 
 PilcrowMD keeps every change to a note you have open. For a note that is not open, it keeps one version per save when saves are at least a second apart; if another app saves faster, some in-between versions are not kept.
@@ -44,7 +64,7 @@ PilcrowMD keeps every change to a note you have open. For a note that is not ope
 
 - **⌘B, ⌘I and ⌘K** make text bold, italic or a link, also from the new Format menu.
 - **Quick Look:** press Space on a `.md` file in Finder to see it drawn the PilcrowMD way.
-- **Maths:** `\middle|` now draws (it does not yet stretch to the bracket height).
+- **Maths:** `\middle|` now draws.
 - A new window opens at 1100 × 800, with a wider left pane.
 
 ![The Format menu: Bold ⌘B, Italic ⌘I and Link ⌘K](images/format-menu.png)

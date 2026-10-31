@@ -31,7 +31,7 @@ A quarterly review with real tables: numbers lined up on the right, totals in bo
 ## Try it yourself
 
 The note in the pictures: [q3-review.md](../../samples/Work%20Notes/Business/q3-review.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

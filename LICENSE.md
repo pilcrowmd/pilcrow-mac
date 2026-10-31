@@ -15,7 +15,7 @@
       permitted by mandatory provisions of law,
    e. publish the installation file on other websites, app stores or download mirrors.
 4. The application contains open-source components provided under their own licenses. Their
-   list and license texts are included in the application (Settings › About › Licences).
+   list and license texts are included in the application (Settings › About › Open source licenses).
 5. The application is a test (beta) version and is provided "as is", without any warranty,
    in particular without any warranty of fitness for a particular purpose or error-free
    operation. You use it at your own risk and should keep backups of your files.

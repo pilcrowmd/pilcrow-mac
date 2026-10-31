@@ -31,7 +31,7 @@ A spec with everything in one page: goals in a table, requirements with prioriti
 ## Try it yourself
 
 The note in the pictures: [spec.md](../../samples/Work%20Notes/Business/spec.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

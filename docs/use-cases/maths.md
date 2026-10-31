@@ -31,7 +31,7 @@ A lecture with real maths: matrices, aligned equations, cases, fractions and roo
 ## Try it yourself
 
 The note in the pictures: [lecture.md](../../samples/Work%20Notes/Research/lecture.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

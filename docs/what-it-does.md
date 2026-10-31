@@ -10,9 +10,12 @@ A plain list. If something is not on the "does" side, assume it is not there yet
 |---|---|
 | **Three modes** | **Read** (⌥⌘1) the rendered page · **Split** (⌥⌘2) editor and page side by side · **Edit** (⌥⌘3) the Markdown text |
 | **Tabs** | Several documents in one window (⌘T). Each tab keeps its own mode, position and history. |
-| **Sidebar** | **Recents** (last 10 files) and **Browse** (your added folders) – see [Folders and agents](folders-and-agents.md) |
-| **Outline** | The headings of the open note, on the right (⌥⌘0). Click one to jump. |
-| **Find** | ⌘F in the open note. Next ⌘G, previous ⇧⌘G. Not case-sensitive. Searches the page in Read mode, the text in Edit mode. No replace, no whole-word, no patterns yet. |
+| **Sidebar** | **Recent** (last 10 files) and **My folders** (your added folders) – see [Folders and agents](folders-and-agents.md) |
+| **Contents** | The headings of the open note, on the right (⌥⌘0). Click one to jump. |
+| **Find** | ⌘F in the open note. Next ⌘G, previous ⇧⌘G. Options: Match case, Whole word, Regular expression. Searches the page in Read mode, the text in Edit mode. |
+| **Find and Replace** | ⌥⌘F, or **Edit › Find and Replace…**. Replace and Replace All; Replace All is one undo step. Not in Read mode, where Find only searches. |
+| **Save** | ⌘S. Off when there is nothing to save: a note you just opened, just saved, or undid back to what is on disk. |
+| **Languages** | English, German, French, Spanish, Chinese (Simplified), Italian, Ukrainian and Hindi. PilcrowMD follows your macOS language, or pick one for PilcrowMD only in **Settings › General › Language** (it asks to restart). |
 | **Text size** | A− / A+ in the toolbar, ⌘− / ⌘+, reset ⌘0. 85% to 160%. |
 | **Themes** | Dark (default) and Light. No "follow the system" option yet. |
 | **Fonts** | Classic (Source Serif 4), Book (Merriweather), Modern (Atkinson Hyperlegible). Code uses JetBrains Mono, without ligatures. |
@@ -70,6 +73,7 @@ as you typed them:
 |---|---|---|
 | General | Open documents ready to write, not to read | Off |
 | General | Open documents in: Tabs / New Windows / Follow System Settings | Tabs |
+| General | Language: System default, or one language for PilcrowMD only | System default |
 | Appearance | Theme: Dark / Light | Dark |
 | Appearance | Reading and code font: Classic / Book / Modern | Classic |
 | Reader | Preview text size | 100% |
@@ -87,9 +91,9 @@ as you typed them:
 | Open · Close | ⌘O · ⌘W |
 | Save · Save As | ⌘S · ⇧⌘S |
 | Export as PDF | ⇧⌘E |
-| Find · Next · Previous | ⌘F · ⌘G · ⇧⌘G |
+| Find · Find and Replace · Next · Previous | ⌘F · ⌥⌘F · ⌘G · ⇧⌘G |
 | Read · Split · Edit | ⌥⌘1 · ⌥⌘2 · ⌥⌘3 |
-| Sidebar · Outline | ⌃⌘S · ⌥⌘0 |
+| Sidebar · Contents | ⌃⌘S · ⌥⌘0 |
 | Back (between notes) | ⌘[ |
 | Text bigger · smaller · reset | ⌘+ · ⌘− · ⌘0 |
 | Settings | ⌘, |

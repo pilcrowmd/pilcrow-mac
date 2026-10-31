@@ -32,7 +32,7 @@ A project README the way GitHub shows it – and then some. Code in many languag
 ## Try it yourself
 
 The note in the pictures: [readme.md](../../samples/Work%20Notes/Engineering/readme.md).
-Download the repo, add the `samples/Work Notes` folder in PilcrowMD (Browse › **+**), and open it. See [samples](../../samples/).
+Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders › **+**), and open it. See [samples](../../samples/).
 
 ## Good to know
 

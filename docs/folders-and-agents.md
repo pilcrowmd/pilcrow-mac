@@ -165,8 +165,8 @@ In a note opened from an added folder, Markdown links to other notes open them i
 
 - **⌘-click** opens the link in a new tab.
 - **Back** (⌘[ or the arrow in the toolbar) returns to the previous note, at the same place.
-- A link to a file outside the added folder shows *"Note not found: name"*. Links never
-  leave the folder you added.
+- A link to a file outside My folders shows *"Outside My folders: name"*. Links never
+  leave the folders you added.
 - Web and email links open in your browser or mail app, only when you click them.
 - `[[wiki links]]` are **not** supported; they show as plain text.
 

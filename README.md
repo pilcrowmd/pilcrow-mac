@@ -5,12 +5,31 @@ was meant to look. Edit it, see the result side by side, export it to PDF.
 Built for the age of AI agents: it watches your folders, shows every new or changed file
 within a second, and keeps earlier versions so you can see exactly what changed.
 
-**[Download PilcrowMD 0.3.5 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3.5)** ·
+**[Download PilcrowMD 0.4 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.4)** ·
 macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 
 ![A runbook an agent has just edited: a banner says it changed since you last read it, and each change is highlighted in the page](images/changed-highlights.png)
 
 ---
+
+## New in 0.4
+
+- **PilcrowMD now runs in Apple's App Sandbox.** macOS keeps the app to the folders and files
+  you give it. Reading and writing work as before.
+- **Your folders, settings and history move with you.** The first time 0.4 opens, macOS moves
+  PilcrowMD's data into the app's own container. My folders, Recent, History, recovery copies,
+  reading positions and settings are all kept.
+- **Pictures beside a note you opened from outside My folders.** A short line under the note
+  says the pictures are outside My folders. Click Allow Folder…, then Allow. You do this once
+  per folder, and PilcrowMD remembers it after you quit.
+- **Links that leave My folders** still do not open, as before. They now say
+  "Outside My folders" instead of "Note not found".
+- **Going back to 0.3.x after 0.4:** an older version cannot see the moved data and starts
+  with an empty profile. Your notes are untouched, and installing 0.4 again shows everything.
+
+All changes: [release notes](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.4).
+
+![A note opened from outside My folders: a line under it says its pictures are outside My folders, with Not Now and Allow Folder… buttons](images/allow-folder.png)
 
 ## New in 0.3.5
 
@@ -26,7 +45,7 @@ macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
 - **New names, the same as in the Android app:** My folders (was Browse), Recent (was Recents),
   Contents (was Outline), Open source licenses (was Licences).
 
-All changes: [release notes](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3.5).
+0.3.5 release notes: [v0.3.5](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.3.5).
 
 ![Find & Replace above a note in the editor: Match case, Whole word, Regular expression, Replace and Replace All](images/find-replace.png)
 
@@ -156,10 +175,14 @@ More: [Folders and agents](docs/folders-and-agents.md) · [AI agents use case](d
 - Nothing is written unless you edit. A save is all-or-nothing.
 - Another app's changes are never overwritten without asking you.
 - No account, no tracking, no network. Mermaid diagrams are drawn on your Mac too.
+- Runs in Apple's App Sandbox: it reads and writes only the files and folders you give it.
 
 Like the Android app, the Mac app draws every page natively. The one exception is Mermaid:
 a hidden web view with no internet access turns each diagram into a picture. Nothing web is
-ever shown.
+ever shown. In the sandbox, the drawing engine behind Mermaid needs one more permission to
+start, even offline. That permission allows a connection but does not make one: PilcrowMD still
+never connects to the internet. We checked with `lsof`: no network lines for the app or its
+helpers while diagrams are drawn.
 Details: [Your files are safe](docs/your-files-are-safe.md).
 
 ---
@@ -185,9 +208,10 @@ macOS asks once whether to open an app downloaded from the internet: click **Ope
 PilcrowMD is signed and notarized by Apple. Every step, with a picture:
 [INSTALL.md](INSTALL.md).
 
-To remove it, drag it to the Trash. To remove its data too, delete
-`~/Library/Preferences/com.pilcrowmd.mac.plist` and the folder
-`~/Library/Application Support/PilcrowMac/`.
+To remove it, drag it to the Trash. To remove its data too, delete the folder
+`~/Library/Containers/com.pilcrowmd.mac/` (in Finder: Go › Go to Folder…).
+0.3.x kept its data in `~/Library/Preferences/com.pilcrowmd.mac.plist` and
+`~/Library/Application Support/PilcrowMac/`; 0.4 moves it into that container on first open.
 
 ## Known issues in this beta
 

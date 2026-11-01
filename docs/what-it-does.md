@@ -62,6 +62,8 @@ as you typed them:
 
 - No accounts, no tracking, no analytics, no ads.
 - The app makes **no network connections**. Mermaid diagrams are drawn on your Mac.
+  In the sandbox, Mermaid's drawing engine needs a permission that allows a connection; the app
+  still makes none (checked with `lsof` while diagrams are drawn).
 - Web pictures in your notes are never fetched.
 - Links open in your browser only when you click them.
 
@@ -105,5 +107,7 @@ as you typed them:
 - macOS 14 (Sonoma) or later.
 - Tested on Apple Silicon. The download also contains an Intel build, which has not been tested.
 - Signed and notarized by Apple. macOS asks once before the first open ([Install](../INSTALL.md)).
-- Not sandboxed. It reads and writes only the files and folders you open or add.
+- Runs in Apple's App Sandbox. It reads and writes only the files and folders you open or add.
+- Pictures beside a note opened from outside My folders need one click: Allow Folder…, then
+  Allow. PilcrowMD remembers that folder after you quit.
 - Opens `.md`, `.markdown` and `.txt` files.

@@ -17,7 +17,7 @@ every rule the app follows when it saves, in plain words, so you can check them.
 | **Cancel means nothing is written** | In every save box, Cancel leaves the file on disk exactly as it was. |
 | **Your bytes stay yours** | A file that starts with a byte-order mark (BOM) keeps it. A file without one never gets one. Windows (CRLF) and Mac/Linux (LF) line endings are kept. |
 | **No autosave** | The app only writes when you save. |
-| **No network** | The app makes no network connections. Mermaid diagrams are drawn on your Mac. |
+| **No network** | The app makes no network connections. Mermaid diagrams are drawn on your Mac. In the sandbox, Mermaid's drawing engine needs a permission that allows a connection; the app still makes none (checked with `lsof` while diagrams are drawn). |
 
 ---
 
@@ -76,8 +76,17 @@ These are not hidden. They are also listed under [Known issues](../README.md#kno
 
 | What | Where |
 |---|---|
-| Settings, recent files, added folders | `~/Library/Preferences/com.pilcrowmd.mac.plist` |
-| N/U marks for added folders | `~/Library/Application Support/PilcrowMac/NoteMarks/` |
-| Staging files for saves in progress | `~/Library/Application Support/PilcrowMac/PendingSaves/` |
+Since 0.4 the app runs in Apple's App Sandbox, so all of its own data is in one folder,
+`~/Library/Containers/com.pilcrowmd.mac/`:
 
-Nothing else. To remove the app completely, delete it from Applications and delete these.
+| What | Where, inside that folder |
+|---|---|
+| Settings, recent files, added folders | `Data/Library/Preferences/com.pilcrowmd.mac.plist` |
+| File history, recovery copies, reading positions | `Data/Library/Application Support/com.pilcrowmd.mac/` |
+| N/U marks for added folders | `Data/Library/Application Support/PilcrowMac/NoteMarks/` |
+| Staging files for saves in progress | `Data/Library/Application Support/PilcrowMac/PendingSaves/` |
+
+Nothing is kept outside that folder. To remove the app completely, delete it from Applications
+and delete that folder.
+0.3.x kept the same data in `~/Library/Preferences/` and `~/Library/Application Support/`; the
+first open of 0.4 moves it into the container.

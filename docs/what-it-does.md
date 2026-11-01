@@ -40,7 +40,7 @@ A plain list. If something is not on the "does" side, assume it is not there yet
 | Callouts | `> [!NOTE]`, `[!TIP]`, `[!IMPORTANT]`, `[!WARNING]`, `[!CAUTION]` |
 | Collapsible sections | `<details><summary>…</summary>…</details>` |
 | Front matter | The `---` block at the top, shown as a YAML box |
-| Pictures | Local pictures up to 50 MB. **Web pictures are never downloaded** – a box shows the description and the address instead. |
+| Pictures | Local pictures up to 50 MB (beside a note opened from outside My folders: one Allow Folder… click, see [System](#system)). **Web pictures are never downloaded** – a box shows the description and the address instead. |
 | Links | Web links, email, links between notes, heading links. Bare `https://…`, `www.…` and email addresses become links. |
 | Mermaid diagrams | Drawn on your Mac, with no internet. A diagram it cannot draw is shown as its code. |
 

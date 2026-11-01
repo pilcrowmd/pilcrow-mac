@@ -86,7 +86,7 @@ Since 0.4 the app runs in Apple's App Sandbox, so all of its own data is in one 
 | N/U marks for added folders | `Data/Library/Application Support/PilcrowMac/NoteMarks/` |
 | Staging files for saves in progress | `Data/Library/Application Support/PilcrowMac/PendingSaves/` |
 
-Nothing is kept outside that folder. To remove the app completely, delete it from Applications
-and delete that folder.
+All of the app's own data is in that folder. To remove it, delete it from Applications and
+delete that folder.
 0.3.x kept the same data in `~/Library/Preferences/` and `~/Library/Application Support/`; the
 first open of 0.4 moves it into the container.

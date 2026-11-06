@@ -6,7 +6,7 @@ Built for the age of AI agents: it watches your folders, shows every new or chan
 within a second, and keeps earlier versions so you can see exactly what changed.
 
 **[Download PilcrowMD 0.4 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.4)** ·
-macOS 14 or later · free while the beta lasts · [How to install](INSTALL.md)
+macOS 14 or later · free beta · [How to install](INSTALL.md)
 
 ![A runbook an agent has just edited: a banner says it changed since you last read it, and each change is highlighted in the page](images/changed-highlights.png)
 

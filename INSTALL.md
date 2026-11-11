@@ -62,7 +62,7 @@ Click **Open**.
 
 PilcrowMD opens. From now on it opens like any other app.
 
-![PilcrowMD after its first launch](images/install-08-opened.png)
+![The PilcrowMD start screen, with My folders in the sidebar](images/install-08-opened.png)
 
 ## Upgrading from 0.3
 

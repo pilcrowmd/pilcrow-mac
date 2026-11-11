@@ -11,7 +11,7 @@ one of our free example files. You can download the files and try them yourself:
 Code blocks with colours for 28 languages, a Copy button on each block, the Contents list of the
 headings on the right. Code is shown exactly as written – no font ligatures.
 
-![A project README with code in Python, TypeScript and Kotlin](../images/use-coders.png)
+![A project README with code in Python and TypeScript](../images/use-coders.png)
 
 ## Admins and on-call – runbooks and incident notes
 

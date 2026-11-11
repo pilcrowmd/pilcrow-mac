@@ -38,7 +38,7 @@ Download the repo, add the `samples/Work Notes` folder in PilcrowMD (My folders 
 ## Good to know
 
 - **Contents** (⌥⌘0) lists every heading. Click one to jump.
-- With File history on, PilcrowMD keeps earlier versions and compares them side by side. See [File history](../../README.md#file-history).
+- With File history turned on (Settings › History), PilcrowMD can mark what changed in a note in My folders since you last read it, and compare versions side by side. See [File history](../../README.md#file-history).
 
 ---
 

@@ -13,11 +13,11 @@ A plain list. If something is not on the "does" side, assume it is not there yet
 | **Sidebar** | **Recent** (last 10 files) and **My folders** (your added folders) – see [Folders and agents](folders-and-agents.md) |
 | **Contents** | The headings of the open note, on the right (⌥⌘0). Click one to jump. |
 | **Find** | ⌘F in the open note. Next ⌘G, previous ⇧⌘G. Options: Match case, Whole word, Regular expression. Searches the page in Read mode, the text in Edit mode. |
-| **Find and Replace** | ⌥⌘F, or **Edit › Find and Replace…**. Replace and Replace All; Replace All is one undo step. |
+| **Find and Replace** | ⌥⌘F, or **Edit › Find and Replace…**. Replace and Replace All; Replace All is one undo step. Available in Split and Edit mode; hidden in Read. |
 | **Save** | ⌘S. Off when there is nothing to save: a note you just opened, just saved, or undid back to what is on disk. |
 | **Languages** | English, German, French, Spanish, Chinese (Simplified), Italian, Ukrainian and Hindi. PilcrowMD follows your macOS language, or pick one for PilcrowMD only in **Settings › General › Language** (it asks to restart). |
 | **Text size** | A− / A+ in the toolbar, ⌘− / ⌘+, reset ⌘0. 85% to 160%. |
-| **Themes** | Dark (default) and Light. No "follow the system" option yet. |
+| **Themes** | Dark (default) and Light. No "follow the system" option yet. Reading looks: Calm (default), Document, Open, with Line width (Wide by default) and Line spacing settings. |
 | **Fonts** | Classic (Source Serif 4), Book (Merriweather), Modern (Atkinson Hyperlegible). Code uses JetBrains Mono, without ligatures. |
 | **Export** | **File › Export as PDF…** (⇧⌘E) |
 | **Editor** | Line numbers (can be turned off), syntax colours for Markdown, undo/redo |
@@ -42,7 +42,7 @@ A plain list. If something is not on the "does" side, assume it is not there yet
 | Front matter | The `---` block at the top, shown as a YAML box |
 | Pictures | Local pictures up to 50 MB (beside a note opened from outside My folders: one Allow Folder… click, see [System](#system)). **Web pictures are never downloaded** – a box shows the description and the address instead. |
 | Links | Web links, email, links between notes, heading links. Bare `https://…`, `www.…` and email addresses become links. |
-| Mermaid diagrams | Drawn on your Mac, with no internet. A diagram it cannot draw is shown as its code. |
+| Mermaid diagrams | Drawn on your Mac, with no internet. A diagram it cannot draw is shown as its code. Quick Look, Compare and PDF export show the code block instead. |
 
 Pictures of each kind of document: [Use cases](use-cases.md).
 
@@ -79,7 +79,7 @@ as you typed them:
 | Appearance | Theme: Dark / Light | Dark |
 | Appearance | Reading and code font: Classic / Book / Modern | Classic |
 | Reader | Preview text size | 100% |
-| Reader | Wrap long lines in code blocks | Off |
+| Reader | Wrap long lines in code blocks | On |
 | Editor | Edit text size | 100% |
 | Editor | Line numbers | On |
 
@@ -107,7 +107,7 @@ as you typed them:
 - macOS 14 (Sonoma) or later.
 - Tested on Apple Silicon. The download also contains an Intel build, which has not been tested.
 - Signed and notarized by Apple. macOS asks once before the first open ([Install](../INSTALL.md)).
-- Runs in Apple's App Sandbox. It reads and writes only the files and folders you open or add.
+- Runs in Apple's App Sandbox (since 0.4). It reads and writes only the files and folders you open or add.
 - Pictures beside a note opened from outside My folders need one click: Allow Folder…, then
   Allow. PilcrowMD remembers that folder after you quit.
 - Opens `.md`, `.markdown` and `.txt` files.

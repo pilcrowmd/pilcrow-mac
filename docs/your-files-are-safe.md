@@ -1,7 +1,8 @@
 # Your files are safe
 
-PilcrowMD opens your files and writes them back. It does not keep its own copy, does not
-upload your files, and does not change what you wrote unless you edit it. This page lists
+PilcrowMD opens your files and writes them back. It does not upload anything, and does
+not change what you wrote unless you edit it. With File history turned on (Settings › History),
+it keeps copies of earlier versions of notes in My folders, on your Mac only. This page lists
 every rule the app follows when it saves, in plain words, so you can check them.
 
 ---
@@ -16,7 +17,7 @@ every rule the app follows when it saves, in plain words, so you can check them.
 | **Another app's changes are never overwritten silently** | If the file changed on disk since you opened it, saving asks first: Save As… / Overwrite / Cancel. This covers ⌘S, closing, quitting, and leaving a note through a link or Back. |
 | **Cancel means nothing is written** | In every save box, Cancel leaves the file on disk exactly as it was. |
 | **Your bytes stay yours** | A file that starts with a byte-order mark (BOM) keeps it. A file without one never gets one. Windows (CRLF) and Mac/Linux (LF) line endings are kept. |
-| **No autosave** | The app only writes when you save. |
+| **No autosave** | The app writes your file only when you save. After a crash it offers to restore your unsaved edits. |
 | **No network** | The app makes no network connections. Mermaid diagrams are drawn on your Mac. In the sandbox, Mermaid's drawing engine needs a permission that allows a connection; the app still makes none (checked with `lsof` while diagrams are drawn). |
 
 ---
@@ -59,8 +60,8 @@ fail if any of these rules break.
 
 These are not hidden. They are also listed under [Known issues](../README.md#known-issues-in-this-beta).
 
-- **Unsaved edits are lost if the app crashes.** There is no autosave and no draft recovery.
-  Save often.
+- **No autosave.** Save often. After a crash, PilcrowMD offers to restore your unsaved edits
+  (crash recovery, since 0.2).
 - **Mixed line endings become uniform** when you edit and save a file that mixes CRLF and LF.
 - **A lone carriage return (CR) inside a line becomes a line break** when you save.
 - **Hard links break on save.** Other hard-linked names keep the old text.
@@ -74,15 +75,13 @@ These are not hidden. They are also listed under [Known issues](../README.md#kno
 
 ## Where the app keeps its own data
 
-| What | Where |
-|---|---|
 Since 0.4 the app runs in Apple's App Sandbox, so all of its own data is in one folder,
 `~/Library/Containers/com.pilcrowmd.mac/`:
 
 | What | Where, inside that folder |
 |---|---|
-| Settings, recent files, added folders | `Data/Library/Preferences/com.pilcrowmd.mac.plist` |
-| File history, recovery copies, reading positions | `Data/Library/Application Support/com.pilcrowmd.mac/` |
+| Settings, Recent, My folders | `Data/Library/Preferences/com.pilcrowmd.mac.plist` |
+| File history (Settings › History, Show in Finder), recovery copies of unsaved edits, reading positions | `Data/Library/Application Support/com.pilcrowmd.mac/` |
 | N/U marks for added folders | `Data/Library/Application Support/PilcrowMac/NoteMarks/` |
 | Staging files for saves in progress | `Data/Library/Application Support/PilcrowMac/PendingSaves/` |
 

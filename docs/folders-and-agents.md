@@ -2,11 +2,11 @@
 
 Add a folder once. PilcrowMD lists every Markdown file in it and keeps the list live.
 When another app – an editor, a sync tool, a script, an AI agent – creates or changes
-a file there, you see it within a second. You never have to press refresh.
+a file there, you see it within a second (for folders on your Mac's disk). You never have to press refresh.
 
 This page explains what you see, and exactly what the app does and does not do.
 
-![The sidebar with the Work Notes folder and its subfolders, a note open in the reader](../images/folders-marks.png)
+![The My folders sidebar with the Work Notes folder and its subfolders, a note open in the reader](../images/folders-marks.png)
 
 ---
 
@@ -140,10 +140,10 @@ into a project folder while you read and review them in PilcrowMD.
 - If you are editing a note and the agent saves the same file, you get the banner and,
   when you save, the box above. Nothing is lost without you choosing it.
 
+With File history turned on (Settings › History), PilcrowMD keeps earlier versions of notes in My folders for 10 to 30 days, on your Mac, marks what changed since you last read a note (Highlight changes) and compares versions side by side (Compare).
+
 What PilcrowMD does **not** do yet:
 
-- Showing *which lines* changed and keeping old versions need File history, which is off until
-  you turn it on. See [File history](../README.md#file-history).
 - It does not lock files. Two apps can still write the same file; PilcrowMD only makes sure
   it never overwrites the other app's work without asking you.
 
@@ -165,8 +165,8 @@ In a note opened from an added folder, Markdown links to other notes open them i
 
 - **⌘-click** opens the link in a new tab.
 - **Back** (⌘[ or the arrow in the toolbar) returns to the previous note, at the same place.
-- A link to a file outside My folders shows *"Outside My folders: name"*. Links never
-  leave the folders you added.
+- A link to a note outside your added folders shows *"Outside My folders"* and does not
+  open. Links never leave the folders you added.
 - Web and email links open in your browser or mail app, only when you click them.
 - `[[wiki links]]` are **not** supported; they show as plain text.
 

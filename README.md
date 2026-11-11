@@ -3,7 +3,8 @@
 A native Markdown reader and editor for the Mac. Open a `.md` file and read it the way it
 was meant to look. Edit it, see the result side by side, export it to PDF.
 Built for the age of AI agents: it watches your folders, shows every new or changed file
-within a second, and keeps earlier versions so you can see exactly what changed.
+within a second (for folders on your Mac's disk), and, with File history turned on, keeps
+earlier versions so you can see exactly what changed.
 
 **[Download PilcrowMD 0.4 (Mac)](https://github.com/pilcrowmd/pilcrow-mac/releases/tag/v0.4)** ·
 macOS 14 or later · free beta · [How to install](INSTALL.md)
@@ -157,7 +158,8 @@ HTML. Full list, with what it does not do: [What it does](docs/what-it-does.md).
 ## Folders and agents
 
 Add a folder. When an agent, a script or another app writes a file there, it appears with
-**N** (new) or **U** (updated) within a second. An open note updates by itself.
+**N** (new) or **U** (updated) within a second (for folders on your Mac's disk). An open note
+updates by itself.
 
 ![An agent creates a report and edits a runbook; PilcrowMD marks them N and U and updates the open page](images/agent-folder.gif)
 
